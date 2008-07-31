@@ -33,3 +33,7 @@ is affiliated in any way with Google Inc.
 and the current one);
 - Added debug file writer which dumps various info into a text file;
 - Debug is now activated by default until further notice.
+
+0.2.1 - 2008.07.29
+
+- Fixes for google login changes (Libin Pan)

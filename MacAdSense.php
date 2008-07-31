@@ -98,14 +98,14 @@
 		curl_setopt ($ch, CURLOPT_POSTFIELDS, $postdata);
 		curl_setopt ($ch, CURLOPT_POST, 1);
 		$result = curl_exec ($ch);
-		if(ereg("meta content", $result))
+		if(ereg("refresh",$result))
 		{
-			$result = str_replace("\n", '', $result);
-			$result = ereg_replace("^[^']*'", "", $result);
-			$result = ereg_replace("'[^']*$", "", $result);
-			$result = str_replace('&amp;', '&', $result);
-			$result = str_replace('google.de', 'google.com', $result);
-			$variable = $result;
+			$result = str_replace("\n","",$result);
+			$result=ereg_replace("^.*url=&#39;","",$result);
+			$result=ereg_replace("&#39;.*$","",$result);
+			$result=ereg_replace("&amp;","&",$result);
+			$result=ereg_replace("google.de","google.com",$result);
+			$variable=$result;
 		}
 	}
 	curl_close($ch);

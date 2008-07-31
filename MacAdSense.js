@@ -2,6 +2,7 @@
  *
  * Copyright (C) 2007 Kai 'Oswald' Seidler, http://oswaldism.de
  * Copyright (C) 2007 Janos Rusiczki, http://www.rusiczki.net
+ * Copyright (C) 2008 Libin Pan, http://blog.libinpan.com
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -19,7 +20,7 @@
  * 
  */
 
-var version = "0.1";
+var version = "0.2.1";
 var timeout = 60 * 20; // set update frequency to 20 minutes 
 var now = 0;
 var timeoutevent = 0;
