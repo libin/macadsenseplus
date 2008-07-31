@@ -1,0 +1,64 @@
+<html>
+<head>
+	
+<title>MacAdSensePlus Widget</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<link href="MacAdSense.css" rel="stylesheet" type="text/css">
+
+<script type='text/javascript' src='file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js' charset='utf-8'/>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js' charset='utf-8'/>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/AppleClasses/AppleButton.js' charset='utf-8'/>
+<script type='text/javascript' src='MacAdSense.js' charset='utf-8'/>
+
+</head>
+
+<body onload="setup();">
+<div id="front">
+	<div id="front_content">
+		<div id="bigboxes">
+			<div id="earningsToday">$0.00</div>
+			<div id="clicksToday">Clicks: 0</div>
+			<div id="earningsYesterday">$0.00</div>
+			<div id="clicksYesterday">Clicks: 0</div>
+			<div id="earningsThisWeek">$0.00</div>
+			<div id="clicksThisWeek">Clicks: 0</div>
+			<div id="earningsLastWeek">$0.00</div>
+			<div id="clicksLastWeek">Clicks: 0</div>
+			<div id="earningsThisMonth">$0.00</div>
+			<div id="clicksThisMonth">Clicks: 0</div>
+			<div id="earningsLastMonth">$0.00</div>
+			<div id="clicksLastMonth">Clicks: 0</div>
+		</div>
+		<div id="bottom">
+			<b>Last update</b>: <span id="updated">---</span>
+		</div>
+	</div>
+	<div id="dialog"><div id="dialog_content"></div></div>
+	<div id="i"></div>
+</div>
+
+<div id="back">
+	<div id="back_content">
+		<form id="ff" onSubmit="hideBack(); return false;">
+			<b>Username</b>:<br/>
+			<input type="text" name="username"/><br/>
+			<b>Password</b>:<br/>
+			<input type="password" name="password"/>
+			<b>Week starts on</b>:<br/>
+			<select name="startOfWeek">
+				<option value="0">Sunday</option>
+				<option value="1">Monday</option>
+				<option value="2">Tuesday</option>
+				<option value="3">Wednesday</option>
+				<option value="4">Thursday</option>
+				<option value="5">Friday</option>
+				<option value="6">Saturday</option>
+			</select>
+		</form>
+	</div>
+	<div id="version"></div>
+	<div id="done"></div>
+</div>
+
+</body>
+</html>

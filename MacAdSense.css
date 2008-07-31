@@ -1,0 +1,201 @@
+#front {
+	background-image: url('macadsenseplus-f.png');
+	width: 187px;
+	height: 300px;
+	font-family: Lucida Grande;
+	color: #fff;
+}
+
+#front_content {
+	display: none;
+}
+
+#back {
+	background-image: url('macadsenseplus-b.png');
+	width: 187px;
+	height: 300px;
+	font-family: Lucida Grande;
+	color: #fff;
+	font-size: 10px;	
+	display: none;
+}
+
+#back_content {
+	position: absolute;
+	top: 46px;
+	left: 30px;
+	width: 140px;
+}
+
+#dialog {
+	width: 187px;
+	height: 138px;
+}
+
+#dialog_content {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+	width: 140px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.small {
+	font-size: 11px;
+}
+
+#earningsToday {
+/*	background: green;
+*/	position: absolute;
+	top: 56px;
+	left: 28px;
+	width: 138px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#clicksToday {
+	position: absolute;
+	top: 82px;
+	left: 28px;
+	width: 136px;
+	font-size: 10px;
+	text-align: right;
+}
+
+#earningsYesterday {
+	position: absolute;
+	top: 116px;
+	left: 28px;
+	width: 138px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#clicksYesterday {
+	position: absolute;
+	top: 142px;
+	left: 28px;
+	width: 136px;
+	font-size: 10px;
+	text-align: right;
+}
+
+#earningsThisWeek {
+	position: absolute;
+	top: 174px;
+	left: 30px;
+	width: 60px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+}
+
+#clicksThisWeek {
+	position: absolute;
+	top: 191px;
+	left: 30px;
+	width: 60px;
+	font-size: 9px;
+	text-align: right;	
+}
+
+#earningsLastWeek {
+	position: absolute;
+	top: 174px;
+	left: 105px;
+	width: 60px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+}
+
+#clicksLastWeek {
+	position: absolute;
+	top: 191px;
+	left: 105px;
+	width: 60px;
+	font-size: 9px;
+	text-align: right;	
+}
+
+#earningsThisMonth {
+	position: absolute;
+	top: 222px;
+	left: 30px;
+	width: 60px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+}
+
+#clicksThisMonth {
+	position: absolute;
+	top: 239px;
+	left: 30px;
+	width: 60px;
+	font-size: 9px;
+	text-align: right;	
+}
+
+#earningsLastMonth {
+	position: absolute;
+	top: 222px;
+	left: 105px;
+	width: 60px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+}
+
+#clicksLastMonth {
+	position: absolute;
+	top: 239px;
+	left: 105px;
+	width: 60px;
+	font-size: 9px;
+	text-align: right;	
+}
+
+#bottom {
+	position: absolute;
+	top: 260px;
+	left: 27px;
+	width: 142px;
+	text-align: center;
+	font-size: 9px;	
+}
+
+#i {
+	position: absolute;
+	top: 259px;
+	left: 158px;
+}
+
+#rollie {
+	position: absolute;
+	top: 103px;
+	left: 158px;
+	opacity: 0;
+}
+
+#done {
+	position: absolute;
+	top: 154px;
+	left: 115px;
+}
+
+#version {
+	position: absolute;
+	top: 260px;
+	left: 30px;
+	font-size: 9px;	
+}
+
+input {
+	width: 135px;
+}
